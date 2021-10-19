@@ -10,3 +10,4 @@
 * CSS-переменные
 * CSS-анимации 
 * и прочее
+[Деплой тут](https://loki87-async-race.netlify.app/)
