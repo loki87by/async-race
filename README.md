@@ -9,5 +9,6 @@
 * Flex- и grid-контейнеры 
 * CSS-переменные
 * CSS-анимации 
-* и прочее
+* и прочее 
+* 
 [Деплой тут](https://loki87-async-race.netlify.app/)
