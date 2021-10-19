@@ -1,6 +1,6 @@
 {
   "name": "async-race",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "entry point: (index.ts)",
   "main": "index.ts",
   "scripts": {
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://rolling-scopes-school.github.io/loki87by-JSFE2021Q1/async-race.git"
+    "url": "https://github.com/loki87by/async-race.git"
   },
   "author": "Alexey Akulich",
   "license": "ISC",
   "bugs": {
-    "url": "https://rolling-scopes-school.github.io/loki87by-JSFE2021Q1/async-race/issues"
+    "url": "https://github.com/loki87by/async-race/issues"
   },
-  "homepage": "https://rolling-scopes-school.github.io/loki87by-JSFE2021Q1/async-race#readme",
+  "homepage": "https://github.com/loki87by/async-race#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
