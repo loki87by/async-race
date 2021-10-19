@@ -1,0 +1,61 @@
+{
+  "name": "async-race",
+  "version": "0.0.1",
+  "description": "entry point: (index.ts)",
+  "main": "index.ts",
+  "scripts": {
+    "eslint": "eslint",
+    "prettier": "prettier",
+    "build": "rimraf dist && webpack",
+    "dev": "webpack serve --mode=development --progress",
+    "deploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://rolling-scopes-school.github.io/loki87by-JSFE2021Q1/async-race.git"
+  },
+  "author": "Alexey Akulich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://rolling-scopes-school.github.io/loki87by-JSFE2021Q1/async-race/issues"
+  },
+  "homepage": "https://rolling-scopes-school.github.io/loki87by-JSFE2021Q1/async-race#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^8.1.1",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.2.7",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-webpack-plugin": "^2.5.4",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^3.2.3",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.4.0",
+    "mini-css-extract-plugin": "^1.6.2",
+    "postcss-loader": "^5.3.0",
+    "ts-loader": "^9.2.6",
+    "ts-node": "^9.1.1",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.4",
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@types/node": "^15.14.9",
+    "@types/webpack": "^5.28.0",
+    "@types/webpack-dev-server": "^3.11.6",
+    "autoprefixer": "^10.3.7",
+    "core-js": "^3.18.3",
+    "cssnano": "^5.0.8",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "prettier": "^2.4.1",
+    "rimraf": "^3.0.2"
+  }
+}
